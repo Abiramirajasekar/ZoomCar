@@ -22,7 +22,7 @@ var data = JSON.parse(localStorage.getItem("userdata"))||[];
                return alert("Email already in use");
                
             }
-        });
+        }); 
 
         if(a==0){
             var new_email=localStorage.setItem("New_email",email);
