@@ -6,7 +6,7 @@ var data = JSON.parse(localStorage.getItem("userdata")) || [];
 
   document.querySelector(".continue").addEventListener("click",function (){
 
-    window.location.assign("main.html")
+    window.location.assign("Home.html")
   })
 
   
