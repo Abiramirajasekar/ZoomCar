@@ -15,7 +15,7 @@ var res=document.getElementById("query").value
 localStorage.setItem("ram" ,JSON.stringify(res))
 
 
-window.location.href="Home.html"
+window.location.href="index.html"
 document.getElementById("btn").style.backgroundColor="black"
 
 }
