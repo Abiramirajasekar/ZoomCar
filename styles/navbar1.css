@@ -14,6 +14,7 @@
     font-style: italic;
     font-weight: lighter;
 }
+
 /* 
 h1 {
     font-weight: bold;
@@ -64,6 +65,16 @@ h1 {
 }
 
 #a {
+    text-decoration: none;
+    color: grey;
+}
+
+#a1 {
+    text-decoration: none;
+    color: white;
+}
+
+#a2 {
     text-decoration: none;
     color: grey;
 }

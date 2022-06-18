@@ -1,5 +1,5 @@
-let navbar = ()=>{
-return `<div id="icon">
+function navbar() {
+    return `<div id="icon">
 <i class="fa-solid fa-bars"></i>
 </div>
 <div id="logo">
@@ -11,4 +11,4 @@ return `<div id="icon">
 <h3>Login/Signup</h3>
 </div>`
 }
-export  {navbar}
+export default navbar 
