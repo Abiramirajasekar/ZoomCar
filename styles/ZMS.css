@@ -480,3 +480,10 @@ input{
     border-width: 0.2px;
     padding: 10px;
 }
+
+input:hover{
+    border:2px solid #10a310;
+}
+textarea:hover{
+    border: 2px solid #10a310;
+}
