@@ -21,15 +21,15 @@
             <img id="img" src="./Zlogo.png" alt="">
         </div>
         <div id="left">
-            <h3>Become a Host</h3>
-            <h3><a href="/ZoomCar/ZMS.html"> ZMS</a></h3>
-            <h3>Login/Signup</h3>
+            <h3><a id="a1" href="/ZoomCar/become.html">Become a Host</a></h3>
+            <h3><a id="a1" href="/ZoomCar/ZMS.html"> ZMS</a></h3>
+            <h3><a id="a1" href="/ZoomCar/main.html">Login/Signup</a></h3>
         </div>
     </div>
     <div id="sidebar">
 
         <div class="user">
-            <div> <i class="fa-solid fa-user"></i> </div>
+            <div> <a id="a2" href="/ZoomCar/main.html"><i class="fa-solid fa-user"></a></i> </div>
             <div>
                 <h4 class="cl">Login or Signup</h4>
             </div>
@@ -37,7 +37,7 @@
         <div class="user">
             <a id="a" href="city.html"><i class="fa-solid fa-location-dot"></a></i>
             <h4 class="cl">Change City</h4>
-            <h4 id="green">Chennai</h4>
+            <h4 id="green"></h4>
         </div>
         <div class="user">
             <i class="fa-solid fa-globe"></i>
@@ -64,23 +64,34 @@
 </body>
 
 </html>
+<script src="/ZoomCar/scripts/sidebar.js"></script>
+<!-- // import navbar from "../ZoomCar/Scripts/navbar.js"
+
+// var div = document.getElementById("navbar")
+
+
+// console.log(navbar)
+// div.append(navbar())
+
+// document.getElementById("icon").addEventListener("click", icon)
+// var sidebar = document.querySelector("#sidebar")
+// sidebar.style.maxWidth = "0px";
+// sidebar.style.visibility = "hidden";
+
+// function icon() {
+
+// if (sidebar.style.maxWidth == "0px") {
+// sidebar.style.maxWidth = "1200px";
+// sidebar.style.visibility = "visible";
+// }
+// else {
+// sidebar.style.maxWidth = "0px"
+// sidebar.style.visibility = "hidden";
+// } -->
+<!-- // } -->
 <script>
-    document.getElementById("icon").addEventListener("click", icon)
-    var sidebar = document.querySelector("#sidebar")
-    sidebar.style.maxWidth = "0px";
-    sidebar.style.visibility = "hidden";
-
-    function icon() {
-
-        if (sidebar.style.maxWidth == "0px") {
-            sidebar.style.maxWidth = "1200px";
-            sidebar.style.visibility = "visible";
-        }
-        else {
-            sidebar.style.maxWidth = "0px"
-            sidebar.style.visibility = "hidden";
-        }
-    }
-
+    var green = document.getElementById("green")
+    var arr = JSON.parse(localStorage.getItem("place"))
+    green.innerText = arr;
 
 </script>
